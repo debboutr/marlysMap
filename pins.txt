@@ -1,3 +1,0 @@
-Place, lat, lon
-La Lobera Sea Lion Colony,24.5968868,-110.4592945
-Las Calaveritas,24.4934722,-110.3912998
