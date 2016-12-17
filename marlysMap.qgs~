@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.16.1-Nødebo">
+<qgis projectname="" version="2.18.1">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -26,7 +26,10 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="pins20161215005010785" name="Las Calaveritas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Satellite20161215203756778" name="Satellite">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="base20161216174959577" name="base">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Satellite20161215203756778" name="Satellite">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="world_borders20161207050059597" name="world_borders">
@@ -44,10 +47,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-12301611.61935914307832718</xmin>
-      <ymin>2799832.19804806774482131</ymin>
-      <xmax>-12282108.56280339509248734</xmax>
-      <ymax>2828078.00409359997138381</ymax>
+      <xmin>-12299287.94482590816915035</xmin>
+      <ymin>2800823.743423773907125</ymin>
+      <xmax>-12280155.31327942572534084</xmax>
+      <ymax>2828533.07186969555914402</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -102,6 +105,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CandeleroBay_activity_1456376890_route_points20161204121547229"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CandeleroBay_activity_1456376890_waypoints20161204121547251"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ballena2_activity_1456376985_tracks20161204121542698"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="base20161216174959577"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20161214224142223"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Ballena1_activity_1456376917_track_points20161204121528440"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="14th20161215000619534"/>
@@ -131,6 +135,7 @@
       <item>18th20161215000835742</item>
       <item>pins20161215005010785</item>
       <item>Satellite20161215203756778</item>
+      <item>base20161216174959577</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -169,9 +174,14 @@
         <legendlayerfile isInOverview="0" layerid="pins20161215005010785" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Satellite" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Satellite20161215203756778" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="base20161216174959577" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Satellite" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Satellite20161215203756778" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="world_borders" showFeatureCount="0">
@@ -185,7 +195,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="Composer 1" visible="0">
+  <Composer title="Composer 1" visible="1">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="457.2" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="609.6" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -203,11 +213,59 @@
         </layer>
       </symbol>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="2799832.19804806774482131" xmin="-12302510.14909843727946281" ymax="2828078.00409359997138381" xmax="-12281210.0330641008913517"/>
+        <Extent ymin="2800823.743423773907125" xmin="-12300169.40863063745200634" ymax="2828533.07186969555914402" xmax="-12279273.84947469644248486"/>
         <LayerSet/>
         <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{5d76566c-6e52-45fc-bd5b-76cbb8987aa5}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="0.750774" positionMode="0" positionLock="false" x="-1" y="0" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="460" outlineWidth="0.3" excludeFromExports="0" uuid="{611487e1-acb2-4850-b614-856aa3d79147}" height="610" itemRotation="0" frame="false" pagex="-1">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="1.08748" positionMode="0" positionLock="false" x="-1" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="460" outlineWidth="0.3" excludeFromExports="0" uuid="{611487e1-acb2-4850-b614-856aa3d79147}" height="610" itemRotation="0" frame="false" pagex="-1">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
           <customproperties/>
@@ -228,6 +286,31 @@
       </customproperties>
     </Composition>
   </Composer>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>333.52425692040861804</xmin>
+      <ymin>-1200.6877960548822557</ymin>
+      <xmax>1210.77325530250823249</xmax>
+      <ymax>143.48405630478237072</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
@@ -259,6 +342,20 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="name" expression=""/>
+        <default field="cmt" expression=""/>
+        <default field="desc" expression=""/>
+        <default field="src" expression=""/>
+        <default field="link1_href" expression=""/>
+        <default field="link1_text" expression=""/>
+        <default field="link1_type" expression=""/>
+        <default field="link2_href" expression=""/>
+        <default field="link2_text" expression=""/>
+        <default field="link2_type" expression=""/>
+        <default field="number" expression=""/>
+        <default field="type" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -371,17 +468,17 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
+        <alias field="name" index="0" name=""/>
         <alias field="cmt" index="1" name=""/>
         <alias field="desc" index="2" name=""/>
+        <alias field="src" index="3" name=""/>
         <alias field="link1_href" index="4" name=""/>
         <alias field="link1_text" index="5" name=""/>
         <alias field="link1_type" index="6" name=""/>
         <alias field="link2_href" index="7" name=""/>
         <alias field="link2_text" index="8" name=""/>
         <alias field="link2_type" index="9" name=""/>
-        <alias field="name" index="0" name=""/>
         <alias field="number" index="10" name=""/>
-        <alias field="src" index="3" name=""/>
         <alias field="type" index="11" name=""/>
       </aliases>
       <excludeAttributesWMS/>
@@ -404,6 +501,12 @@
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-110.40882655419409275</xmin>
+        <ymin>24.45144586265087128</ymin>
+        <xmax>-110.36791138350963593</xmax>
+        <ymax>24.48479175567626953</ymax>
+      </extent>
       <id>15th20161215000528789</id>
       <datasource>./layers/15th.shp</datasource>
       <keywordList>
@@ -427,6 +530,20 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="name" expression=""/>
+        <default field="cmt" expression=""/>
+        <default field="desc" expression=""/>
+        <default field="src" expression=""/>
+        <default field="link1_href" expression=""/>
+        <default field="link1_text" expression=""/>
+        <default field="link1_type" expression=""/>
+        <default field="link2_href" expression=""/>
+        <default field="link2_text" expression=""/>
+        <default field="link2_type" expression=""/>
+        <default field="number" expression=""/>
+        <default field="type" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -539,17 +656,17 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
+        <alias field="name" index="0" name=""/>
         <alias field="cmt" index="1" name=""/>
         <alias field="desc" index="2" name=""/>
+        <alias field="src" index="3" name=""/>
         <alias field="link1_href" index="4" name=""/>
         <alias field="link1_text" index="5" name=""/>
         <alias field="link1_type" index="6" name=""/>
         <alias field="link2_href" index="7" name=""/>
         <alias field="link2_text" index="8" name=""/>
         <alias field="link2_type" index="9" name=""/>
-        <alias field="name" index="0" name=""/>
         <alias field="number" index="10" name=""/>
-        <alias field="src" index="3" name=""/>
         <alias field="type" index="11" name=""/>
       </aliases>
       <excludeAttributesWMS/>
@@ -572,6 +689,12 @@
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-110.39491401985287666</xmin>
+        <ymin>24.53014405444264412</ymin>
+        <xmax>-110.37447399459779263</xmax>
+        <ymax>24.53322356566786766</ymax>
+      </extent>
       <id>16th20161215000441895</id>
       <datasource>./layers/16th.shp</datasource>
       <keywordList>
@@ -595,6 +718,20 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="name" expression=""/>
+        <default field="cmt" expression=""/>
+        <default field="desc" expression=""/>
+        <default field="src" expression=""/>
+        <default field="link1_href" expression=""/>
+        <default field="link1_text" expression=""/>
+        <default field="link1_type" expression=""/>
+        <default field="link2_href" expression=""/>
+        <default field="link2_text" expression=""/>
+        <default field="link2_type" expression=""/>
+        <default field="number" expression=""/>
+        <default field="type" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -707,17 +844,17 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
+        <alias field="name" index="0" name=""/>
         <alias field="cmt" index="1" name=""/>
         <alias field="desc" index="2" name=""/>
+        <alias field="src" index="3" name=""/>
         <alias field="link1_href" index="4" name=""/>
         <alias field="link1_text" index="5" name=""/>
         <alias field="link1_type" index="6" name=""/>
         <alias field="link2_href" index="7" name=""/>
         <alias field="link2_text" index="8" name=""/>
         <alias field="link2_type" index="9" name=""/>
-        <alias field="name" index="0" name=""/>
         <alias field="number" index="10" name=""/>
-        <alias field="src" index="3" name=""/>
         <alias field="type" index="11" name=""/>
       </aliases>
       <excludeAttributesWMS/>
@@ -740,6 +877,12 @@
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-110.41019146330654621</xmin>
+        <ymin>24.42146044224500656</ymin>
+        <xmax>-110.34785726107656956</xmax>
+        <ymax>24.48653946630656719</ymax>
+      </extent>
       <id>17th20161215000723589</id>
       <datasource>./layers/17th.shp</datasource>
       <keywordList>
@@ -763,6 +906,20 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="name" expression=""/>
+        <default field="cmt" expression=""/>
+        <default field="desc" expression=""/>
+        <default field="src" expression=""/>
+        <default field="link1_href" expression=""/>
+        <default field="link1_text" expression=""/>
+        <default field="link1_type" expression=""/>
+        <default field="link2_href" expression=""/>
+        <default field="link2_text" expression=""/>
+        <default field="link2_type" expression=""/>
+        <default field="number" expression=""/>
+        <default field="type" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -875,17 +1032,17 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
+        <alias field="name" index="0" name=""/>
         <alias field="cmt" index="1" name=""/>
         <alias field="desc" index="2" name=""/>
+        <alias field="src" index="3" name=""/>
         <alias field="link1_href" index="4" name=""/>
         <alias field="link1_text" index="5" name=""/>
         <alias field="link1_type" index="6" name=""/>
         <alias field="link2_href" index="7" name=""/>
         <alias field="link2_text" index="8" name=""/>
         <alias field="link2_type" index="9" name=""/>
-        <alias field="name" index="0" name=""/>
         <alias field="number" index="10" name=""/>
-        <alias field="src" index="3" name=""/>
         <alias field="type" index="11" name=""/>
       </aliases>
       <excludeAttributesWMS/>
@@ -908,6 +1065,12 @@
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-110.41086050681769848</xmin>
+        <ymin>24.55740820616483688</ymin>
+        <xmax>-110.39415235631167889</xmax>
+        <ymax>24.56819823011755943</ymax>
+      </extent>
       <id>18th20161215000835742</id>
       <datasource>./layers/18th.shp</datasource>
       <keywordList>
@@ -931,6 +1094,20 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="name" expression=""/>
+        <default field="cmt" expression=""/>
+        <default field="desc" expression=""/>
+        <default field="src" expression=""/>
+        <default field="link1_href" expression=""/>
+        <default field="link1_text" expression=""/>
+        <default field="link1_type" expression=""/>
+        <default field="link2_href" expression=""/>
+        <default field="link2_text" expression=""/>
+        <default field="link2_type" expression=""/>
+        <default field="number" expression=""/>
+        <default field="type" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1042,7 +1219,20 @@
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>.</annotationform>
-      <aliases/>
+      <aliases>
+        <alias field="name" index="0" name=""/>
+        <alias field="cmt" index="1" name=""/>
+        <alias field="desc" index="2" name=""/>
+        <alias field="src" index="3" name=""/>
+        <alias field="link1_href" index="4" name=""/>
+        <alias field="link1_text" index="5" name=""/>
+        <alias field="link1_type" index="6" name=""/>
+        <alias field="link2_href" index="7" name=""/>
+        <alias field="link2_text" index="8" name=""/>
+        <alias field="link2_type" index="9" name=""/>
+        <alias field="number" index="10" name=""/>
+        <alias field="type" index="11" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -1136,6 +1326,54 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-110.60776532607899014</xmin>
+        <ymin>23.97479892516634692</ymin>
+        <xmax>-109.97865737841654266</xmax>
+        <ymax>24.85046515682807211</ymax>
+      </extent>
+      <id>base20161216174959577</id>
+      <datasource>./base.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>base</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>-110.40114935042414857</xmin>
@@ -1166,6 +1404,10 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="Place" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1234,8 +1476,8 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
-        <alias field="Place" index="1" name=""/>
         <alias field="id" index="0" name=""/>
+        <alias field="Place" index="1" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1283,6 +1525,11 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="Place" expression=""/>
+        <default field="lat" expression=""/>
+        <default field="lon" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1353,7 +1600,11 @@
         <selectedonly on=""/>
       </labelattributes>
       <annotationform>.</annotationform>
-      <aliases/>
+      <aliases>
+        <alias field="Place" index="0" name=""/>
+        <alias field="lat" index="1" name=""/>
+        <alias field="lon" index="2" name=""/>
+      </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
@@ -1397,6 +1648,13 @@
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="CAT" expression=""/>
+        <default field="FIPS_CNTRY" expression=""/>
+        <default field="CNTRY_NAME" expression=""/>
+        <default field="AREA" expression=""/>
+        <default field="POP_CNTRY" expression=""/>
+      </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
@@ -1467,10 +1725,10 @@
       </labelattributes>
       <annotationform>.</annotationform>
       <aliases>
-        <alias field="AREA" index="3" name=""/>
         <alias field="CAT" index="0" name=""/>
-        <alias field="CNTRY_NAME" index="2" name=""/>
         <alias field="FIPS_CNTRY" index="1" name=""/>
+        <alias field="CNTRY_NAME" index="2" name=""/>
+        <alias field="AREA" index="3" name=""/>
         <alias field="POP_CNTRY" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
@@ -1545,18 +1803,16 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>world_borders20161207050059597</value>
-        <value>world_borders20161214224222638</value>
-        <value>pin220161214233320496</value>
-        <value>16th20161215000441895</value>
-        <value>15th20161215000528789</value>
         <value>14th20161215000619534</value>
+        <value>15th20161215000528789</value>
+        <value>16th20161215000441895</value>
         <value>17th20161215000723589</value>
         <value>18th20161215000835742</value>
+        <value>pin220161214233320496</value>
         <value>pins20161215005010785</value>
+        <value>world_borders20161207050059597</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
@@ -1577,10 +1833,8 @@
         <value>2</value>
         <value>2</value>
         <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
@@ -1593,7 +1847,6 @@
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
       <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>5.000000</value>
         <value>5.000000</value>
         <value>5.000000</value>
         <value>5.000000</value>
