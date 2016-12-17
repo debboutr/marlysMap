@@ -300,6 +300,18 @@
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="37.601" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="1" units="3" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="Nautical Miles">
+        <scaleBarFont description="Sans Serif,20,-1,5,50,0,0,0,0,0" style=""/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="423.759" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="11.4504" y="423.759" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="246.908" outlineWidth="0.3" excludeFromExports="0" uuid="{3bacf65b-ed31-457f-8ec3-3f24613020c3}" height="20" itemRotation="0" frame="false" pagex="11.4504">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
       <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="76.1709" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./marlys seal2.jpg" northOffset="0" pictureHeight="50.4632" mapId="0" anchorPoint="0">
         <ComposerItem pagey="526.733" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="60.2072" y="526.733" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="76.2643" outlineWidth="1.1" excludeFromExports="0" uuid="{3f066824-16a7-4a03-a24c-e84956c8c247}" height="50.4632" itemRotation="0" frame="true" pagex="60.2072">
           <FrameColor alpha="255" red="92" blue="74" green="74"/>
@@ -655,7 +667,7 @@
           <annotationFontProperties description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="0.917936" positionMode="0" positionLock="false" x="2.22045e-16" y="0" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="457.2" outlineWidth="0.3" excludeFromExports="0" uuid="{1cec4013-4ed4-4fd5-871e-84b54ac5489b}" height="609.6" itemRotation="0" frame="false" pagex="2.22045e-16">
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="0.917936" positionMode="0" positionLock="true" x="2.22045e-16" y="0" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="457.2" outlineWidth="0.3" excludeFromExports="0" uuid="{1cec4013-4ed4-4fd5-871e-84b54ac5489b}" height="609.6" itemRotation="0" frame="false" pagex="2.22045e-16">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="0" blue="0" green="0"/>
           <customproperties/>
