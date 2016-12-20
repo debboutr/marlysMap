@@ -23,19 +23,22 @@
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pin220161214233320496" name="La Lobera Sea Lion Colony">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="base_MapBox20161218112043211" name="base_MapBox">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="pins20161215005010785" name="Las Calaveritas">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pins20161215005010785" name="Las Calaveritas">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="wave_base_modified20161220012350147" name="wave_base_modified">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="control_points220161218083138731" name="control_points2">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="base_MapBox20161218112043211" name="base_MapBox">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Satellite20161215203756778" name="Satellite">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="world_borders20161207050059597" name="world_borders">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="world_borders20161207050059597" name="world_borders">
       <customproperties>
         <property key="legend/title-label" value=""/>
       </customproperties>
@@ -50,10 +53,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-12292167.32286277040839195</xmin>
-      <ymin>2801183.58008223120123148</ymin>
-      <xmax>-12276495.07472771033644676</xmax>
-      <ymax>2827491.02476532105356455</ymax>
+      <xmin>-14639498.16695975698530674</xmin>
+      <ymin>-7390109.07172844931483269</ymin>
+      <xmax>12213601.05746269784867764</xmax>
+      <ymax>13510779.99957491829991341</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -77,11 +80,9 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="16th20161215000441895"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="world_borders20161207050059597"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="14th20161215000619534"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="base_MB2220161218083646966"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="pins20161215005010785"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="wave_base_modified20161220012350147"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="pin220161214233320496"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="base_MapBox20161218112043211"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="base_MB2220161218112018360"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="pins20161215005010785"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
@@ -98,6 +99,7 @@
       <item>Satellite20161215203756778</item>
       <item>control_points220161218083138731</item>
       <item>base_MapBox20161218112043211</item>
+      <item>wave_base_modified20161220012350147</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -131,14 +133,14 @@
         <legendlayerfile isInOverview="0" layerid="pin220161214233320496" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="base_MapBox" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Las Calaveritas" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="base_MapBox20161218112043211" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="pins20161215005010785" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Las Calaveritas" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="wave_base_modified" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="pins20161215005010785" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="wave_base_modified20161220012350147" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="control_points2" showFeatureCount="0">
@@ -146,14 +148,19 @@
         <legendlayerfile isInOverview="0" layerid="control_points220161218083138731" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="base_MapBox" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="base_MapBox20161218112043211" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Satellite" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Satellite20161215203756778" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="world_borders" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="world_borders" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="world_borders20161207050059597" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="world_borders20161207050059597" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
@@ -163,7 +170,7 @@
     </legendlayer>
   </legend>
   <Composer title="Composer 1" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{e6c3ca50-501b-46c2-8e83-cdccc6bd3f81}" alignmentSnap="1" printResolution="300" paperWidth="457.2" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="609.6" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{53e624ba-2ce2-4594-92ba-925a5b1a81b8}" alignmentSnap="1" printResolution="300" paperWidth="457.2" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="609.6" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -179,97 +186,116 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerLegend symbolWidth="7" title="" rasterBorderWidth="0" titleAlignment="1" map="1" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#ebebeb" columnCount="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
-        <styles>
-          <style marginBottom="2" name="title">
-            <styleFont description="Oxygen-Sans Sans-Book,16,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="group">
-            <styleFont description="Oxygen-Sans Sans-Book,14,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="subgroup">
-            <styleFont description="Oxygen-Sans Sans-Book,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="symbol">
-            <styleFont description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" marginLeft="2" name="symbolLabel">
-            <styleFont description="Abyssinica SIL,22,-1,5,50,0,0,0,0,0" style="Regular"/>
-          </style>
-        </styles>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
-          <customproperties/>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="14th20161215000619534" name="14 November - Coastal Swims - Candelero Bay (3.2 km)">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="15th20161215000528789" name="15 November - Gallo Gallina Bay, Ballena Island South (5.9 km)">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="16th20161215000441895" name="16 November - La Partida Coastal (2.5 km)">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="17th20161215000723589" name="17 November - San Gabriel, Ballena Island North (5.8 km)">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="18th20161215000835742" name="18 November - Ensenada Grande (4.2 km)">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pin220161214233320496" name="La Lobera Sea Lion Colony">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Checked" id="pins20161215005010785" name="Las Calaveritas">
-            <customproperties/>
-          </layer-tree-layer>
-          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20161204122133043" name="Google Satellite">
-            <customproperties>
-              <property key="legend/title-label" value=""/>
-            </customproperties>
-          </layer-tree-layer>
-        </layer-tree-group>
-        <ComposerItem pagey="466.111" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="23.3234" y="466.111" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="246.594" outlineWidth="1.1" excludeFromExports="0" uuid="{7f7658f5-4fc7-427e-865a-cc798ece4a52}" height="57.1" itemRotation="0" frame="true" pagex="23.3234">
-          <FrameColor alpha="255" red="79" blue="191" green="124"/>
-          <BackgroundColor alpha="255" red="2" blue="17" green="6"/>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Crew:" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,18,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="232.59" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.1192" y="232.59" visibility="1" zValue="63" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{48a4d297-b1b0-4ae5-9d47-fb70b7588fed}" height="11.2152" itemRotation="0" frame="false" pagex="33.1192">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
-      </ComposerLegend>
-      <ComposerScaleBar lineCapStyle="square" style="Double Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="22.6913" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="1000" units="0" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="4" boxContentSpace="1" mapId="0" unitLabel="km">
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Guides:&#xa;" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,18,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="204.998" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.1192" y="204.998" visibility="1" zValue="56" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{d9a9639f-939a-4699-af67-5172cca0458a}" height="12.6904" itemRotation="0" frame="false" pagex="33.1192">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="8" marginY="1" labelText="Cuco, Tony, Rafeal, Orion" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,16,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="242.255" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.1192" y="242.255" visibility="1" zValue="44" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{e4ec9961-aabd-4716-965b-2fe622e458ce}" height="26.198" itemRotation="0" frame="false" pagex="33.1192">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Swimmers:" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,18,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="130.846" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.1192" y="130.846" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{fbfc05c3-a0de-47ea-bdaf-e5084779354e}" height="11.4277" itemRotation="0" frame="false" pagex="33.1192">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="8" marginY="1" labelText="Ricky Andrews, Pedro Lopez&#x9;" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,16,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="217.689" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.1192" y="217.689" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{8547998f-13ec-407f-9fe1-452ab228090e}" height="10.8409" itemRotation="0" frame="false" pagex="33.1192">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="4" labelText="Map created by: Marlys Cappaert &amp; Rick Debbout" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,14,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="182" blue="164" green="173"/>
+        <ComposerItem pagey="589.559" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="21.1414" y="589.559" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="148.079" outlineWidth="0.3" excludeFromExports="0" uuid="{57b8638b-3ca6-492b-800c-f97e1e409a0c}" height="15.7092" itemRotation="0" frame="false" pagex="21.1414">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="8" marginY="1" labelText="Mary Aldridge, Henry Bremridge, Tamara Berger, Jean Clieske, Marlys Cappaert, Jane Cowan, Jennie Goldberg, Marieke Kruidering, Melora Park, Maryam Sharifzadeh, Julie Sternberg, Nora Swinburne, Pamela Terry, Sandra Uesugi&#x9;" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,16,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="142.273" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="34.0621" y="142.273" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="133.648" outlineWidth="0.3" excludeFromExports="0" uuid="{6e2367b4-6fd1-4238-9965-2e9472bdf4bf}" height="56.7008" itemRotation="0" frame="false" pagex="34.0621">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Baja Peninsula - Mexico 2016" htmlState="0" halign="1">
+        <LabelFont description="Noto Sans Lao,22,-1,5,75,0,0,0,0,0" style="Bold"/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="116.223" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="34.0621" y="116.223" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="134.708" outlineWidth="0.3" excludeFromExports="0" uuid="{43d17722-23ab-46a7-9d07-093b8716ee48}" height="14.623" itemRotation="0" frame="false" pagex="34.0621">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="25.1046" lineJoinStyle="bevel" minBarWidth="50" numUnitsPerSegment="1000" units="1" labelBarSpace="3" outlineWidth="0.3" numSegmentsLeft="2" maxBarWidth="150" height="4" boxContentSpace="1" mapId="0" unitLabel="km">
         <scaleBarFont description="Abyssinica SIL,20,-1,5,50,0,0,0,0,0" style="Regular"/>
         <fillColor alpha="255" red="79" blue="191" green="124"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="238" blue="238" green="238"/>
-        <ComposerItem pagey="417.451" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="34.536" y="417.451" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="132.911" outlineWidth="0.3" excludeFromExports="0" uuid="{1afe128b-4bc6-439a-87b6-48072a27d9de}" height="20" itemRotation="0" frame="false" pagex="34.536">
+        <ComposerItem pagey="372.701" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.2974" y="372.701" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="144.978" outlineWidth="0.3" excludeFromExports="0" uuid="{1afe128b-4bc6-439a-87b6-48072a27d9de}" height="18.0883" itemRotation="0" frame="false" pagex="33.2974">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="134.708" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./L1020196.jpg" northOffset="0" pictureHeight="79.141" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="248.134" page="1" id="groupPhoto" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.0607" y="248.134" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="134.708" outlineWidth="1.1" excludeFromExports="0" uuid="{3525fa56-ad9c-4b30-9bab-cdc842d3ebbe}" height="79.2052" itemRotation="0" frame="true" pagex="33.0607">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="245.101" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./L1020196.jpg" northOffset="0" pictureHeight="143.997" mapId="1" anchorPoint="0">
+        <ComposerItem pagey="443.993" page="1" id="groupPhoto" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="21.6914" y="443.993" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="245.101" outlineWidth="1.1" excludeFromExports="0" uuid="{3525fa56-ad9c-4b30-9bab-cdc842d3ebbe}" height="145.015" itemRotation="0" frame="true" pagex="21.6914">
           <FrameColor alpha="255" red="79" blue="191" green="124"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="84.6013" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./marlysSeal2.jpg" northOffset="0" pictureHeight="56.0484" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="537.128" page="1" id="sealPic" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="185.366" y="537.128" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="84.6013" outlineWidth="1" excludeFromExports="0" uuid="{cc27d0d3-46e3-4d48-98a1-f882a61559f5}" height="56.4815" itemRotation="0" frame="true" pagex="185.366">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="84.6013" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./marlysSeal2.jpg" northOffset="0" pictureHeight="56.0484" mapId="1" anchorPoint="0">
+        <ComposerItem pagey="26.104" page="1" id="sealPic" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="326.286" y="26.104" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="84.6013" outlineWidth="1" excludeFromExports="0" uuid="{cc27d0d3-46e3-4d48-98a1-f882a61559f5}" height="56.4815" itemRotation="0" frame="true" pagex="326.286">
           <FrameColor alpha="255" red="79" blue="191" green="124"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="139.842" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./500px-Flag_of_Mexico_(1916-1934).svg.png" northOffset="0" pictureHeight="79.9895" mapId="-1" anchorPoint="0">
-        <ComposerItem pagey="29.5328" page="1" id="flag" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="302.711" y="29.5328" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="140.375" outlineWidth="0.3" excludeFromExports="0" uuid="{22149fb3-3277-4557-ae93-20d3db006cf3}" height="79.9895" itemRotation="0" frame="false" pagex="302.711">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="43.3775" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./500px-Flag_of_Mexico_(1916-1934).svg.png" northOffset="0" pictureHeight="24.8119" mapId="1" anchorPoint="0">
+        <ComposerItem pagey="29.5328" page="1" id="flag" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="122.587" y="29.5328" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.3007" outlineWidth="0.3" excludeFromExports="0" uuid="{22149fb3-3277-4557-ae93-20d3db006cf3}" height="24.8119" itemRotation="0" frame="false" pagex="122.587">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
           <customproperties/>
         </ComposerItem>
       </ComposerPicture>
-      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="94.3964" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./logo.png" northOffset="0" pictureHeight="29.1223" mapId="-1" anchorPoint="4">
-        <ComposerItem pagey="21.0752" page="1" id="logo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.2974" y="21.0752" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="135.258" outlineWidth="0.3" excludeFromExports="0" uuid="{d5a4dd6d-e681-4d58-848d-25b244db0e66}" height="29.1223" itemRotation="0" frame="false" pagex="33.2974">
+      <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="67.904" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./logo.png" northOffset="0" pictureHeight="20.9491" mapId="1" anchorPoint="4">
+        <ComposerItem pagey="28.0114" page="1" id="logo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.2974" y="28.0114" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.904" outlineWidth="0.3" excludeFromExports="0" uuid="{d5a4dd6d-e681-4d58-848d-25b244db0e66}" height="26.3333" itemRotation="0" frame="false" pagex="33.2974">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -277,7 +303,7 @@
         </ComposerItem>
       </ComposerPicture>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="1" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-7065481.63472126703709364" xmin="-20122429.93483567237854004" ymax="13674942.57101543992757797" xmax="19945434.01381267607212067"/>
+        <Extent ymin="-7014811.11224712803959846" xmin="-20673686.3924933448433876" ymax="12890797.52708941325545311" xmax="17781419.9671628475189209"/>
         <LayerSet>
           <Layer>pins20161215005010785</Layer>
           <Layer>world_borders20161207050059597</Layer>
@@ -301,14 +327,14 @@
                   <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
                     <layer pass="0" class="SimpleMarker" locked="0">
                       <prop k="angle" v="0"/>
-                      <prop k="color" v="9,100,119,255"/>
+                      <prop k="color" v="217,140,25,255"/>
                       <prop k="horizontal_anchor_point" v="1"/>
                       <prop k="joinstyle" v="bevel"/>
                       <prop k="name" v="star"/>
                       <prop k="offset" v="0,0"/>
                       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
                       <prop k="offset_unit" v="MM"/>
-                      <prop k="outline_color" v="182,173,164,255"/>
+                      <prop k="outline_color" v="151,82,32,255"/>
                       <prop k="outline_style" v="solid"/>
                       <prop k="outline_width" v="0"/>
                       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -331,22 +357,23 @@
               <layerTransparency>0</layerTransparency>
               <displayfield>Place</displayfield>
               <label>0</label>
+              <labelfield>Place</labelfield>
               <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Oxygen-Sans Sans-Book"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
+                <label fieldname="Place" text="Label"/>
+                <family fieldname="Place" name="Oxygen-Sans Sans-Book"/>
+                <size fieldname="Place" units="pt" value="12"/>
+                <bold fieldname="Place" on="0"/>
+                <italic fieldname="Place" on="0"/>
+                <underline fieldname="Place" on="0"/>
+                <strikeout fieldname="Place" on="0"/>
+                <color fieldname="Place" red="0" blue="0" green="0"/>
+                <x fieldname="Place"/>
+                <y fieldname="Place"/>
+                <offset x="0" y="0" units="pt" yfieldname="Place" xfieldname="Place"/>
+                <angle fieldname="Place" value="0" auto="0"/>
+                <alignment fieldname="Place" value="center"/>
+                <buffercolor fieldname="Place" red="255" blue="255" green="255"/>
+                <buffersize fieldname="Place" units="pt" value="1"/>
                 <bufferenabled fieldname="" on=""/>
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
@@ -402,14 +429,14 @@
                   <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
                     <layer pass="0" class="SimpleFill" locked="0">
                       <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-                      <prop k="color" v="135,128,110,255"/>
+                      <prop k="color" v="136,109,80,255"/>
                       <prop k="joinstyle" v="bevel"/>
                       <prop k="offset" v="0,0"/>
                       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
                       <prop k="offset_unit" v="MM"/>
-                      <prop k="outline_color" v="135,128,110,255"/>
+                      <prop k="outline_color" v="0,0,0,0"/>
                       <prop k="outline_style" v="solid"/>
-                      <prop k="outline_width" v="0.26"/>
+                      <prop k="outline_width" v="0.2"/>
                       <prop k="outline_width_unit" v="MM"/>
                       <prop k="style" v="solid"/>
                     </layer>
@@ -525,9 +552,9 @@
           <annotationFontProperties description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="62.5561" page="1" id="" lastValidViewScaleFactor="0.90295" positionMode="0" positionLock="true" x="55.5796" y="62.5561" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="89.6702" outlineWidth="1.1" excludeFromExports="0" uuid="{53e624ba-2ce2-4594-92ba-925a5b1a81b8}" height="46.4162" itemRotation="0" frame="true" pagex="55.5796">
-          <FrameColor alpha="255" red="79" blue="191" green="124"/>
-          <BackgroundColor alpha="255" red="3" blue="20" green="10"/>
+        <ComposerItem pagey="65.4991" page="1" id="" lastValidViewScaleFactor="1.64173" positionMode="0" positionLock="true" x="55.5796" y="65.4991" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="round" blendMode="0" width="89.6702" outlineWidth="1.1" excludeFromExports="0" uuid="{53e624ba-2ce2-4594-92ba-925a5b1a81b8}" height="46.4162" itemRotation="0" frame="true" pagex="55.5796">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="82" blue="192" green="127"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
@@ -547,7 +574,7 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="29.6828" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20.8981" y="29.6828" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="159.82" outlineWidth="0.3" excludeFromExports="0" uuid="{e755c5f5-b2d9-4571-9bce-9156426bc8c1}" height="297.506" itemRotation="0" frame="false" pagex="20.8981">
+        <ComposerItem pagey="29.6828" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20.8981" y="29.6828" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="159.82" outlineWidth="0.3" excludeFromExports="0" uuid="{e755c5f5-b2d9-4571-9bce-9156426bc8c1}" height="219.962" itemRotation="0" frame="false" pagex="20.8981">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -569,7 +596,7 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.9974" y="16.5838" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="134.408" outlineWidth="0.3" excludeFromExports="0" uuid="{10d2fb5e-104e-4a2d-9e8a-0a957f95bb35}" height="323.704" itemRotation="0" frame="false" pagex="33.9974">
+        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="33.9974" y="16.5838" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="134.408" outlineWidth="0.3" excludeFromExports="0" uuid="{10d2fb5e-104e-4a2d-9e8a-0a957f95bb35}" height="246.16" itemRotation="0" frame="false" pagex="33.9974">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -591,7 +618,7 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="314.39" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="154.939" y="314.39" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{76f888b0-d50a-4f34-9cf0-f27564a026ab}" height="25.898" itemRotation="0" frame="false" pagex="154.939">
+        <ComposerItem pagey="236.846" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="155.213" y="236.846" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{76f888b0-d50a-4f34-9cf0-f27564a026ab}" height="25.898" itemRotation="0" frame="false" pagex="155.213">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -613,7 +640,7 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="314.39" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="21.0169" y="314.39" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{a9e2712e-e70a-4df1-ad38-50ee17c39722}" height="25.898" itemRotation="0" frame="false" pagex="21.0169">
+        <ComposerItem pagey="236.846" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="21.2914" y="236.846" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{a9e2712e-e70a-4df1-ad38-50ee17c39722}" height="25.898" itemRotation="0" frame="false" pagex="21.2914">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -635,7 +662,7 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="154.939" y="16.5838" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{098d294b-21ec-477d-b0ec-0d69fc9a4087}" height="25.898" itemRotation="0" frame="false" pagex="154.939">
+        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="154.939" y="16.5838" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{098d294b-21ec-477d-b0ec-0d69fc9a4087}" height="25.898" itemRotation="0" frame="false" pagex="154.939">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -657,14 +684,70 @@
             <prop k="style" v="solid"/>
           </layer>
         </symbol>
-        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="21.0166" y="16.5838" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{e6d58a61-1a22-42ad-86bc-360e1b45b452}" height="25.898" itemRotation="0" frame="false" pagex="21.0166">
+        <ComposerItem pagey="16.5838" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="21.0166" y="16.5838" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.898" outlineWidth="0.3" excludeFromExports="0" uuid="{e6d58a61-1a22-42ad-86bc-360e1b45b452}" height="25.898" itemRotation="0" frame="false" pagex="21.0166">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerShape>
+      <ComposerLegend symbolWidth="7" title="" rasterBorderWidth="0" titleAlignment="1" map="1" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#ebebeb" columnCount="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
+        <styles>
+          <style marginBottom="2" name="title">
+            <styleFont description="Oxygen-Sans Sans-Book,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="group">
+            <styleFont description="Oxygen-Sans Sans-Book,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="subgroup">
+            <styleFont description="Oxygen-Sans Sans-Book,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="symbol">
+            <styleFont description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" marginLeft="2" name="symbolLabel">
+            <styleFont description="Abyssinica SIL,22,-1,5,50,0,0,0,0,0" style="Regular"/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+          <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="14th20161215000619534" name="14 November - Coastal Swims - Candelero Bay (3.2 km)">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="15th20161215000528789" name="15 November - Gallo Gallina Bay, Ballena Island South (5.9 km)">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="16th20161215000441895" name="16 November - La Partida Coastal (2.5 km)">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="17th20161215000723589" name="17 November - San Gabriel, Ballena Island North (5.8 km)">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="18th20161215000835742" name="18 November - Ensenada Grande (4.2 km)">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="pin220161214233320496" name="La Lobera Sea Lion Colony">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Checked" id="pins20161215005010785" name="Las Calaveritas">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20161204122133043" name="Google Satellite">
+            <customproperties>
+              <property key="legend/title-label" value=""/>
+            </customproperties>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="299.263" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20.7481" y="299.263" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="round" blendMode="0" width="246.594" outlineWidth="1.1" excludeFromExports="0" uuid="{7f7658f5-4fc7-427e-865a-cc798ece4a52}" height="57.1" itemRotation="0" frame="false" pagex="20.7481">
+          <FrameColor alpha="255" red="79" blue="191" green="124"/>
+          <BackgroundColor alpha="255" red="2" blue="17" green="6"/>
+          <customproperties>
+            <property key="variableNames"/>
+            <property key="variableValues"/>
+          </customproperties>
+        </ComposerItem>
+      </ComposerLegend>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="2801748.92785664321854711" xmin="-12299759.00987356901168823" ymax="2828719.62544366158545017" xmax="-12279530.98668330535292625"/>
+        <Extent ymin="2801776.92216174071654677" xmin="-12300278.13553504459559917" ymax="2828424.87493478041142225" xmax="-12280292.17095526494085789"/>
         <LayerSet>
           <Layer>14th20161215000619534</Layer>
           <Layer>15th20161215000528789</Layer>
@@ -673,6 +756,7 @@
           <Layer>18th20161215000835742</Layer>
           <Layer>pin220161214233320496</Layer>
           <Layer>pins20161215005010785</Layer>
+          <Layer>wave_base_modified20161220012350147</Layer>
         </LayerSet>
         <LayerStyles>
           <LayerStyle layerid="14th20161215000619534">
@@ -764,23 +848,22 @@
               <layerTransparency>0</layerTransparency>
               <displayfield>name</displayfield>
               <label>0</label>
-              <labelfield>name</labelfield>
               <labelattributes>
-                <label fieldname="name" text="Label"/>
-                <family fieldname="name" name="Oxygen-Sans Sans-Book"/>
-                <size fieldname="name" units="pt" value="12"/>
-                <bold fieldname="name" on="0"/>
-                <italic fieldname="name" on="0"/>
-                <underline fieldname="name" on="0"/>
-                <strikeout fieldname="name" on="0"/>
-                <color fieldname="name" red="0" blue="0" green="0"/>
-                <x fieldname="name"/>
-                <y fieldname="name"/>
-                <offset x="0" y="0" units="pt" yfieldname="name" xfieldname="name"/>
-                <angle fieldname="name" value="0" auto="0"/>
-                <alignment fieldname="name" value="center"/>
-                <buffercolor fieldname="name" red="255" blue="255" green="255"/>
-                <buffersize fieldname="name" units="pt" value="1"/>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Oxygen-Sans Sans-Book"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
                 <bufferenabled fieldname="" on=""/>
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
@@ -1543,22 +1626,23 @@
               <layerTransparency>0</layerTransparency>
               <displayfield>Place</displayfield>
               <label>0</label>
+              <labelfield>Place</labelfield>
               <labelattributes>
-                <label fieldname="" text="Label"/>
-                <family fieldname="" name="Oxygen-Sans Sans-Book"/>
-                <size fieldname="" units="pt" value="12"/>
-                <bold fieldname="" on="0"/>
-                <italic fieldname="" on="0"/>
-                <underline fieldname="" on="0"/>
-                <strikeout fieldname="" on="0"/>
-                <color fieldname="" red="0" blue="0" green="0"/>
-                <x fieldname=""/>
-                <y fieldname=""/>
-                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-                <angle fieldname="" value="0" auto="0"/>
-                <alignment fieldname="" value="center"/>
-                <buffercolor fieldname="" red="255" blue="255" green="255"/>
-                <buffersize fieldname="" units="pt" value="1"/>
+                <label fieldname="Place" text="Label"/>
+                <family fieldname="Place" name="Oxygen-Sans Sans-Book"/>
+                <size fieldname="Place" units="pt" value="12"/>
+                <bold fieldname="Place" on="0"/>
+                <italic fieldname="Place" on="0"/>
+                <underline fieldname="Place" on="0"/>
+                <strikeout fieldname="Place" on="0"/>
+                <color fieldname="Place" red="0" blue="0" green="0"/>
+                <x fieldname="Place"/>
+                <y fieldname="Place"/>
+                <offset x="0" y="0" units="pt" yfieldname="Place" xfieldname="Place"/>
+                <angle fieldname="Place" value="0" auto="0"/>
+                <alignment fieldname="Place" value="center"/>
+                <buffercolor fieldname="Place" red="255" blue="255" green="255"/>
+                <buffersize fieldname="Place" units="pt" value="1"/>
                 <bufferenabled fieldname="" on=""/>
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
@@ -1590,9 +1674,22 @@
               <layerGeometryType>0</layerGeometryType>
             </qgis>
           </LayerStyle>
+          <LayerStyle layerid="wave_base_modified20161220012350147">
+            <qgis version="2.18.1" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+              <pipe>
+                <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                  <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+              </pipe>
+              <blendMode>0</blendMode>
+            </qgis>
+          </LayerStyle>
         </LayerStyles>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{dffe98a5-f7dc-41d1-a0f2-9ef9cba74def}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{6a5fae71-2bfa-4aff-97b1-a4d0508f8037}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
           <lineStyle>
             <symbol alpha="1" clip_to_extent="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
@@ -1641,9 +1738,9 @@
           <annotationFontProperties description="Oxygen-Sans Sans-Book,11,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="-1.2" page="1" id="" lastValidViewScaleFactor="0.90295" positionMode="0" positionLock="true" x="-0.9" y="-1.2" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="459" outlineWidth="0.3" excludeFromExports="0" uuid="{e6c3ca50-501b-46c2-8e83-cdccc6bd3f81}" height="612" itemRotation="0" frame="false" pagex="-0.9">
+        <ComposerItem pagey="-3.55271e-15" page="1" id="" lastValidViewScaleFactor="3.06351" positionMode="0" positionLock="true" x="3.55271e-15" y="-3.55271e-15" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="457.2" outlineWidth="0.3" excludeFromExports="0" uuid="{cbf53087-0919-472b-98cd-9051f3bec3c1}" height="609.6" itemRotation="0" frame="false" pagex="3.55271e-15">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
-          <BackgroundColor alpha="255" red="3" blue="20" green="10"/>
+          <BackgroundColor alpha="255" red="0" blue="80" green="40"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
@@ -1662,6 +1759,31 @@
       </customproperties>
     </Composition>
   </Composer>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>159.40338467479176643</xmin>
+      <ymin>-890.71443900172619124</ymin>
+      <xmax>839.3249656882983345</xmax>
+      <ymax>80.60210530328311052</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
@@ -3168,6 +3290,12 @@ def my_form_open(dialog, layer, feature):
       </conditionalstyles>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-110.39129979999999875</xmin>
+        <ymin>24.49347219999999936</ymin>
+        <xmax>-110.39129979999999875</xmax>
+        <ymax>24.49347219999999936</ymax>
+      </extent>
       <id>pins20161215005010785</id>
       <datasource>./layers/pins.shp</datasource>
       <keywordList>
@@ -3215,14 +3343,14 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="9,100,119,255"/>
+              <prop k="color" v="217,140,25,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="name" v="star"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="182,173,164,255"/>
+              <prop k="outline_color" v="151,82,32,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -3245,22 +3373,23 @@ def my_form_open(dialog, layer, feature):
       <layerTransparency>0</layerTransparency>
       <displayfield>Place</displayfield>
       <label>0</label>
+      <labelfield>Place</labelfield>
       <labelattributes>
-        <label fieldname="" text="Label"/>
-        <family fieldname="" name="Oxygen-Sans Sans-Book"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
+        <label fieldname="Place" text="Label"/>
+        <family fieldname="Place" name="Oxygen-Sans Sans-Book"/>
+        <size fieldname="Place" units="pt" value="12"/>
+        <bold fieldname="Place" on="0"/>
+        <italic fieldname="Place" on="0"/>
+        <underline fieldname="Place" on="0"/>
+        <strikeout fieldname="Place" on="0"/>
+        <color fieldname="Place" red="0" blue="0" green="0"/>
+        <x fieldname="Place"/>
+        <y fieldname="Place"/>
+        <offset x="0" y="0" units="pt" yfieldname="Place" xfieldname="Place"/>
+        <angle fieldname="Place" value="0" auto="0"/>
+        <alignment fieldname="Place" value="center"/>
+        <buffercolor fieldname="Place" red="255" blue="255" green="255"/>
+        <buffersize fieldname="Place" units="pt" value="1"/>
         <bufferenabled fieldname="" on=""/>
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
@@ -3289,6 +3418,54 @@ def my_form_open(dialog, layer, feature):
         <rowstyles/>
         <fieldstyles/>
       </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-110.54578522622909986</xmin>
+        <ymin>24.3207528890593494</ymin>
+        <xmax>-110.29744708286891353</xmax>
+        <ymax>24.67446893894923576</ymax>
+      </extent>
+      <id>wave_base_modified20161220012350147</id>
+      <datasource>./wave_base_modified.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>wave_base_modified</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="4" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
@@ -3352,14 +3529,14 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="135,128,110,255"/>
+              <prop k="color" v="136,109,80,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="135,128,110,255"/>
+              <prop k="outline_color" v="0,0,0,0"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0.2"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
             </layer>
@@ -3448,8 +3625,8 @@ def my_form_open(dialog, layer, feature):
       <DegreeFormat type="QString">MU</DegreeFormat>
     </PositionPrecision>
     <WCSUrl type="QString"></WCSUrl>
-    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
@@ -3465,12 +3642,12 @@ def my_form_open(dialog, layer, feature):
     </WFSTLayers>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorGreenPart type="int">10</CanvasColorGreenPart>
-      <CanvasColorRedPart type="int">3</CanvasColorRedPart>
+      <CanvasColorGreenPart type="int">40</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">0</CanvasColorRedPart>
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
       <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorBluePart type="int">20</CanvasColorBluePart>
+      <CanvasColorBluePart type="int">80</CanvasColorBluePart>
     </Gui>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">1</DefaultSnapToleranceUnit>
